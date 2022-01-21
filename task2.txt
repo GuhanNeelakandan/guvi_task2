@@ -1,9 +1,26 @@
-typeof(1) - number
+You can use the "typeof" operator to find the data type of a JavaScript variable.
+typeof(1) - number 
 typeof(1.1) - number
 typeof('1.1') - string
 typeof(true) - boolean
 typeof(null) - object
-typeof(undefined) - undefined
+typeof(undefined) - undefined 
 typeof([]) - object
 typeof({}) - object
 typeof(NaN) - number
+
+The "typeof" operator can return one of these primitive types:
+    string
+    number
+    boolean
+    undefined
+
+The "typeof" operator can return one of two complex types:
+    function
+    object    
+
+undefined
+In JavaScript, a variable without a value, has the value undefined. The type is also undefined.
+null
+In JavaScript null is "nothing". It is supposed to be something that doesn't exist.
+Unfortunately, in JavaScript, the data type of null is an object.
